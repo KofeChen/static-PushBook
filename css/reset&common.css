@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.btn {
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #1296db;
+    display: inline-block;
+    padding: 10px 40px; 
+    border-radius: 5px;
+    opacity: 0.9;
+}
+.btn:hover {
+    opacity: 1;
+}
+html,body {
+    height: 100%;
+}
+body {
+    font-size: 14px/1.5 Arial;
+    color: #444;
+    background-color: #fff;
+}
+.layout {
+    width: 1200px;
+    margin: 0 auto;
+}
+.team-contact img {
+    width: 40px;
+    height: 40px;
+}
+.team-contact {
+    width: 37px;
+    height: 37px;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 10px;
+}
+.team-contact:hover {
+    box-shadow: 0 4px 8px 0 rgb(0,0,0,0.2), 0 6px 20px 0 rgb(0,0,0,0.19)!important;
+}

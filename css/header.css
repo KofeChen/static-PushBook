@@ -1,0 +1,51 @@
+header {
+    height: 100%;
+    background: url(../img/bgd.jpg) center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+header .logo {
+    font: italic 32px Georgia, serif;
+    position: fixed;
+    color: #1296db;
+    float: left;
+    margin-top: 11px;
+}
+header .nav {
+    float: right;
+}
+header .nav>li {
+    float: left;
+    margin: 10px;
+}
+header .nav a {
+    display: block;
+    color: #1296db;
+    font-size: 16px;
+    padding: 5px;
+}
+header .nav a:hover {
+    color: #fff;
+    background-color: #1296db;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px 0 rgb(0,0,0,0.2),0 6px 20px 0 rgb(0,0,0,0.19)!important;
+}
+.intro {
+    width: 1000px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.intro h3 {
+    font-size: 40px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.intro h1 {
+    font-size: 55px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+

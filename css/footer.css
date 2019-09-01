@@ -1,0 +1,22 @@
+footer > .ct-contact, .ct-terms, .foot-p {
+    width: 33.33333333%;
+    text-align: center;
+    display: inline-block;
+}
+footer .foot-p {
+    float: left;
+}
+footer .ct-terms {
+    font-size: 14px;
+    float: right;
+}
+footer .ct-terms a {
+    color: #1296db;
+    padding: 0 10px;
+}
+footer .ct-terms a:hover {
+    text-decoration: underline;
+}
+footer p, .ct-terms {
+    padding: 20px 0;
+}
